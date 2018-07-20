@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif; 
+    background: url(img/numbers_white_wh800.jpg); 
+} 
+.game-display {
+    margin: 0 auto; 
+    background: url(img/blackboard_wh1200.jpg);
+    width: 100%; 
+    height: 1000px;
+    font-size: 1.4rem; 
+    color: #fff;
+}
+h1 {
+    text-align: center; 
+    font-size: 2.5rem;
+}
+.quest {
+    padding-top: 0.8rem;
+    text-align: center; 
+}
+.game-input {
+    margin: auto;
+    border: none;
+    border-radius: 3px; 
+    width: 27rem; 
+    height: 4.5rem; 
+    color: #333 !important;
+    text-align: center !important; 
+}
+.btn-game {
+    background-color: #ffcc33;
+    border: none; 
+    width: 27rem; 
+    height: 2.7rem; 
+    margin: auto; 
+    color: #333;
+    font-size: 1.1rem !important; 
+}    
+.btn-new-game {
+    background-color: #33ff99;
+    border: none; 
+    width: 27rem; 
+    height: 2.7rem; 
+    margin: auto; 
+    color: #333;
+    font-size: 1.1rem !important;  
+}
+.display-res {
+    margin: auto; 
+    width: 27rem; 
+    height: 9rem; 
+    text-align: center; 
+    color: #333; 
+}
+.low {
+    color: #fff; 
+    background-color: #ff3333 !important;
+    vertical-align: bottom; 
+    padding-top: 4rem !important; 
+}
+.high {
+    color: #fff; 
+    background-color: #ff3333 !important;
+}
+.success {
+    padding: 0.9rem;
+    background-color: #33ffff !important;
+    vertical-align: middle; 
+    line-height: 1.5rem;
+}
+.newGame {
+    background-color: #fff;
+    font-size: 4rem; 
+    color: #33ff99 !important; 
+    vertical-align: middle; 
+}
+a.btn:link, a.btn:visited {
+    decoration: none; 
+}
+a.btn:hover {
+    color: #ffecb3 !important;
+    decoration: none; 
+    font-size: 1.3rem !important; 
+}
